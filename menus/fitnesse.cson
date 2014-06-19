@@ -1,0 +1,18 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable fitnesse': 'fitnesse:toggle'
+      'Format fitnesse': 'fitnesse:format'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'fitnesse'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'fitnesse:toggle' }
+        { 'label': 'Format', 'command': 'fitnesse:format' }
+      ]
+    ]
+  }
+]
