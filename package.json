@@ -2,7 +2,7 @@
   "name": "fitnesse",
   "main": "./lib/fitnesse",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "The FitNesse module allows formatting wiki markup specifically FitNesse test file by pressing keys Ctrl+Cmd+F.",
   "activationEvents": [
     "fitnesse:toggle",
     "fitnesse:format"
