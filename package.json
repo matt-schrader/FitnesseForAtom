@@ -1,14 +1,16 @@
 {
   "name": "fitnesse",
   "main": "./lib/fitnesse",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
-  "activationEvents": ["fitnesse:toggle", "fitnesse:format"],
+  "activationEvents": [
+    "fitnesse:toggle",
+    "fitnesse:format"
+  ],
   "repository": "https://github.com/matt-schrader/FitnesseForAtom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
