@@ -1,7 +1,5 @@
-{View} = require 'atom'
-
 module.exports =
-class FitnesseView extends View
+class FitnesseView
   @content: ->
     @div class: 'fitnesse overlay from-top', =>
       @div "The Fitnesse package is Alive! It's ALIVE!", class: "message"
@@ -22,3 +20,5 @@ class FitnesseView extends View
       @detach()
     else
       atom.workspaceView.append(this)
+
+  
