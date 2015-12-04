@@ -1,0 +1,30 @@
+@import "syntax-variables";
+@import "colors";
+
+atom-text-editor::shadow .fitnesse.keyword.include {
+    color: mix(@light-gray, @syntax-text-color, 55%);
+}
+
+atom-text-editor::shadow .fitnesse.keyword.style {
+    color: mix(@yellow, @syntax-text-color, 35%);
+}
+
+atom-text-editor::shadow .fitnesse.keyword.query {
+    color: mix(@blue, @syntax-text-color, 35%);
+}
+
+atom-text-editor::shadow .fitnesse.keyword.script {
+    color: mix(@orange, @syntax-text-color, 50%);
+}
+
+atom-text-editor::shadow .fitnesse.text.bold {
+  font-weight: bold;
+}
+
+atom-text-editor::shadow .fitnesse.variable {
+    color: mix(@red, @syntax-text-color, 50%);
+}
+
+atom-text-editor::shadow .fitnesse.variable.global {
+    color: mix(@red, @syntax-text-color, 80%);
+}

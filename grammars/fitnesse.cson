@@ -1,0 +1,27 @@
+scopeName: 'source.fitnesse'
+name: 'Fitnesse'
+fileTypes: [
+    'txt'
+]
+patterns: [{
+    match: '\!include.*'
+    name: 'fitnesse.keyword.include'
+}, {
+    match: '\!style_.*'
+    name: 'fitnesse.keyword.style'
+}, {
+    match: '\-*\\\!\\\|script.*'
+    name: 'fitnesse.keyword.script'
+}, {
+    match: '\!\\\|Query:.*'
+    name: 'fitnesse.keyword.query'
+}, {
+    match: '\'\'\'.*\'\'\''
+    name: 'fitnesse.text.bold'
+}, {
+    match: '\\\$\\\w+'
+    name: 'fitnesse.variable'
+}, {
+    match: '\\\${\\\w+}'
+    name: 'fitnesse.variable.global'
+}]
